@@ -3,7 +3,7 @@
     ./json.nix
   ];
 
-  config.vim.lsp = {
+  vim.lsp = {
     enable = true;
     formatOnSave = true;
     inlayHints.enable = true;
@@ -13,7 +13,7 @@
     trouble.enable = true;
   };
 
-  config.vim.languages = {
+  vim.languages = {
     bash = {
       enable = true;
       extraDiagnostics.enable = true;

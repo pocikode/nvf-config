@@ -1,5 +1,5 @@
 {
-  config.vim.mini = {
+  vim.mini = {
     ai = {
       enable = true;
       setupOpts = {

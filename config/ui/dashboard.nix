@@ -1,5 +1,5 @@
 {
-  config.vim.dashboard.dashboard-nvim = {
+  vim.dashboard.dashboard-nvim = {
     enable = true;
     setupOpts = {
       theme = "hyper";

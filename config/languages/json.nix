@@ -4,7 +4,7 @@ let
   inherit (lib.generators) mkLuaInline;
 in
 {
-  config.vim = {
+  vim = {
     extraPlugins.schemastore = {
       package = pkgs.vimPlugins.SchemaStore-nvim;
     };

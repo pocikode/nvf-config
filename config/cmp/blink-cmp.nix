@@ -1,5 +1,5 @@
 {
-  config.vim.autocomplete.blink-cmp = {
+  vim.autocomplete.blink-cmp = {
     enable = true;
   };
 }

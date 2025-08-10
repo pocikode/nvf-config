@@ -1,5 +1,5 @@
 {
-  config.vim.statusline.lualine = {
+  vim.statusline.lualine = {
     enable = true;
     theme = "auto";
     globalStatus = true;

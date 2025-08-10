@@ -1,5 +1,5 @@
 {
-  config.vim.tabline.nvimBufferline = {
+  vim.tabline.nvimBufferline = {
     enable = true;
 
     mappings = {
@@ -17,7 +17,7 @@
     };
   };
 
-  config.vim.keymaps = [
+  vim.keymaps = [
     {
       key = "<leader>bp";
       mode = "n";

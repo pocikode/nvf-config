@@ -1,7 +1,7 @@
 { util, ... }:
 
 {
-  config.vim = {
+  vim = {
     ui.noice = {
       enable = true;
     };

@@ -1,5 +1,5 @@
 {
-  config.vim = {
+  vim = {
     lsp.trouble = {
       enable = true;
 
