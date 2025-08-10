@@ -21,6 +21,7 @@
     ./ui/dashboard.nix
     ./ui/lualine.nix
     ./ui/noice.nix
+    ./ui/snacks.nix
     ./ui/theme.nix
     ./ui/ui.nix
   ];
@@ -53,7 +54,6 @@
 
     utility = {
       motion.flash-nvim.enable = true;
-      snacks-nvim.enable = true;
     };
   };
 }
