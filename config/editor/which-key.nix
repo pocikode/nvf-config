@@ -51,6 +51,10 @@
               "search"
             ]
             [
+              "<leader>t"
+              "terminal"
+            ]
+            [
               "<leader>u"
               "ui"
             ]
