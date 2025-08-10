@@ -7,6 +7,7 @@
     ./cmp/blink-cmp.nix
 
     # editor
+    ./editor/comments.nix
     ./editor/gitsigns.nix
     ./editor/keymaps.nix
     ./editor/neotree.nix
