@@ -7,6 +7,7 @@
     ./cmp/blink-cmp.nix
 
     # editor
+    ./editor/gitsigns.nix
     ./editor/keymaps.nix
     ./editor/neotree.nix
     ./editor/todo-comments.nix
@@ -49,6 +50,7 @@
 
     utility = {
       motion.flash-nvim.enable = true;
+      snacks-nvim.enable = true;
     };
   };
 }
