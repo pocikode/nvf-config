@@ -29,10 +29,21 @@
             inherit pkgs;
             modules = [ ./config ];
           };
+
+          devShell = pkgs.mkShell {
+            packages = with pkgs; [
+              go
+              gopls
+              nixd
+              nixfmt-rfc-style
+              statix
+              lua-language-server
+            ];
+          };
         in
         {
           packages.default = myNeovim.neovim;
-          formatter = pkgs.alejandra;
+          devShells.default = devShell;
         };
     };
 }
