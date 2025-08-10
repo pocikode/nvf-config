@@ -27,6 +27,8 @@
     lineNumberMode = "relNumber";
     preventJunkFiles = true;
 
+    notify.nvim-notify.enable = true;
+
     options = {
       tabstop = 2;
       shiftwidth = 2;
@@ -38,7 +40,6 @@
 
     clipboard = {
       enable = true;
-      providers.wl-copy.enable = true;
       registers = "unnamedplus";
     };
 
