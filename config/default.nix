@@ -20,6 +20,8 @@
     ./ui/dashboard.nix
     ./ui/lualine.nix
     ./ui/noice.nix
+    ./ui/theme.nix
+    ./ui/ui.nix
   ];
 
   _module.args.util = import ./util.nix;
