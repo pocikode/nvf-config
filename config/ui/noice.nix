@@ -17,11 +17,11 @@
       (util.mkLuaKeymap "n" "<leader>snh" ''function() require("noice").cmd("history") end''
         "Noice History"
       )
-      (util.mkLuaKeymap "n" "<leader>sna" ''function() require("all").cmd("last") end'' "Noice All")
-      (util.mkLuaKeymap "n" "<leader>snd" ''function() require("dismiss").cmd("last") end''
+      (util.mkLuaKeymap "n" "<leader>sna" ''function() require("noice").cmd("all") end'' "Noice All")
+      (util.mkLuaKeymap "n" "<leader>snd" ''function() require("noice").cmd("dismiss") end''
         "Noice Dismiss All"
       )
-      (util.mkLuaKeymap "n" "<leader>snt" ''function() require("pick").cmd("last") end''
+      (util.mkLuaKeymap "n" "<leader>snt" ''function() require("noice").cmd("pick") end''
         "Noice Picker (Telescope/FzfLua)"
       )
     ];
