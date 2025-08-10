@@ -7,8 +7,10 @@
     ./cmp/blink-cmp.nix
 
     # editor
+    ./editor/keymaps.nix
     ./editor/neotree.nix
     ./editor/trouble.nix
+    ./editor/which-key.nix
 
     # ui
     ./ui/bufferline.nix
@@ -43,9 +45,8 @@
       registers = "unnamedplus";
     };
 
-    binds = {
-      cheatsheet.enable = true;
-      whichKey.enable = true;
+    utility = {
+      motion.flash-nvim.enable = true;
     };
   };
 }
