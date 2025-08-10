@@ -5,6 +5,7 @@
     # languages and completion
     ./languages
     ./cmp/blink-cmp.nix
+    ./cmp/blink-cmp-copilot.nix
 
     # editor
     ./editor/comments.nix
