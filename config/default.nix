@@ -9,6 +9,7 @@
     # editor
     ./editor/keymaps.nix
     ./editor/neotree.nix
+    ./editor/todo-comments.nix
     ./editor/toggleterm.nix
     ./editor/trouble.nix
     ./editor/which-key.nix
