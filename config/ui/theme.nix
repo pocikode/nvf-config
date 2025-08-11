@@ -1,8 +1,8 @@
 {
   vim.theme = {
     enable = true;
-    # name = "catppuccin";
-    # style = "macchiato";
+    name = "tokyonight";
+    style = "storm";
     transparent = true;
   };
 }
