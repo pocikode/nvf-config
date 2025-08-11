@@ -14,6 +14,7 @@
     ./editor/neotree.nix
     ./editor/todo-comments.nix
     ./editor/toggleterm.nix
+    ./editor/treesitter.nix
     ./editor/trouble.nix
     ./editor/which-key.nix
 
