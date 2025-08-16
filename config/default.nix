@@ -12,6 +12,7 @@
     ./editor/gitsigns.nix
     ./editor/keymaps.nix
     ./editor/neotree.nix
+    ./editor/telescope.nix
     ./editor/todo-comments.nix
     ./editor/toggleterm.nix
     ./editor/treesitter.nix
